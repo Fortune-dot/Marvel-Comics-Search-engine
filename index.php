@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Marvel Comics API Search - Character</title>
+  <title>Marvel Comics App</title>
 
   <link rel="stylesheet" href="style.css">
 
@@ -19,18 +19,18 @@
   <div class="jumbotron">
     <style>
 .jumbotron{
-
+  background-color: crimson;
 }
       </style>
     <div class="container">
-      <h1 class="header-main-title">Marvel Comics Character Search</h1>
+      <h1 class="header-main-title">Marvel Comics Search🦸‍♀️ 🌈🚀🚀</h1>
       <form id="connectionForm">
 
         <div class="form-group">
           <input required type="text" name="name" id="name" class="form-control character-search-box"
-            placeholder="(Ex. Hulk, Iron Man, Spider-Man, etc...)">
+            placeholder="Hulk, Thor, Spider-Man etc...">
         </div>
-        <input type="submit" value="Search!" class="btn btn-danger mb-2 float-right search-character-button">
+        <input type="submit" value="Search 🔍 " class="btn btn-primary mb-2 float-right search-character-button">
 
       </form>
     </div>
